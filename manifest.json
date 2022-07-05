@@ -1,0 +1,10 @@
+{
+  "background_color": "#342f91",
+  "display": "standalone",
+  "name": "The Bean",
+  "orientation": "landscape-primary",
+  "scope": "/",
+  "short_name": "DaBean",
+  "start_url": "/",
+  "theme_color": "#6165f0"
+}

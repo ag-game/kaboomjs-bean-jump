@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>The Bean - Game</title>
+  <script src="/dist/helper.js"></script>
+  <script src="/dist/game.js"></script>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="manifest" href="manifest.json" />
+  <!-- ios support -->
+  <link rel="apple-touch-icon" href="favicon.png"/>
+  <meta name="apple-mobile-web-app-status-bar" content="#6156f0" />
+  <meta name="theme-color" content="#6156f0" />
+
+  <script type="module">
+   import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+   const el = document.createElement('pwa-update');
+   document.body.appendChild(el);
+</script>
+  
+
+	<style>
+		* {
+			margin: 0;
+		}
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+		canvas {
+			display: block;
+      width: 100%;
+      height: 100%;
+		}
+	</style>
+</head>
+
+<body>
+<script src="/dist/helper.js"></script>
+<script src="/dist/game.js"></script>
+
+  
+<!--
+This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
+-->
+
+</body>
+
+</html>
